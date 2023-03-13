@@ -14,17 +14,3 @@ def bubbleSort(randomList):
             x += 1
             y += 1
     return(randomList)
-
-
-
-def inputNumbers():
-    y = int(input("Quantos numeros voce quer comparar?"))
-    #y = 3
-    global list
-    list = []
-    for x in range(y):
-        z = input(f"Digite o numero {x+1}: ")
-        list.append(z)
-
-inputNumbers()
-print(bubbleSort(list))
